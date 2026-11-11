@@ -3,6 +3,7 @@ out/
 .tmp/
 frames/
 *.mp4
+!docs/demo/*.mp4
 *.mov
 *.wav
 *.blend
