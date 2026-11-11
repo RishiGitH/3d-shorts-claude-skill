@@ -10,6 +10,9 @@ writes the narration, records a free local voice, adds captions, labels and a mi
 
 Everything runs on your own computer. No account, no API key, no cloud render.
 
+> **Like it? Please star the repo** ⭐ - it is the best way to say thanks, and it tells me to keep going.
+> This project is actively maintained: new objects, reveals, looks and voices are coming. Star it (or Watch → Releases) to follow along.
+
 ## What you need
 
 - A computer with about 3 GB free disk space (macOS, Linux or Windows) and a graphics driver that supports OpenGL 4.3 / Metal (needed by Blender's EEVEE renderer; no dedicated GPU required). An Apple-silicon Mac (M4) renders a final Short in about 40 minutes.
