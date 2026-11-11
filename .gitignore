@@ -1,0 +1,18 @@
+# outputs and scratch
+out/
+.tmp/
+frames/
+*.mp4
+*.mov
+*.wav
+*.blend
+*.blend1
+# environments and secrets
+.venv/
+.env
+.env.*
+# downloaded models (installer fetches them)
+assets/voices/
+__pycache__/
+*.pyc
+.DS_Store

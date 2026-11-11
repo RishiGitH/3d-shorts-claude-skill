@@ -1,0 +1,10 @@
+# How a jet engine works - one narration line per line
+How does a jet engine push a plane across an ocean? It is mostly one very clever tube.
+First, a giant fan sucks in air. Most of it simply flows around the outside.
+The rest dives into the compressor, where rows of blades squeeze it to a fraction of its size.
+Squeezed air is hot and dense, which is exactly what fuel wants.
+In the combustor, fuel sprays in and burns, and the gas blasts toward the back.
+That blast spins the turbine, blades on the same shaft as the fan.
+So the engine feeds itself. The exhaust that pushes you forward also powers the intake.
+Out the back it roars, and Newton does the rest. Push gas back, and the plane goes forward.
+Fan, squeeze, burn, blast. That is every jet engine, in four words.

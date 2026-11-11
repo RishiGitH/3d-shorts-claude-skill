@@ -1,0 +1,51 @@
+{
+  "title": "How a jet engine works",
+  "hero": {"module": "jet_engine"},
+  "shots": [
+    {"id": "s01", "lines": [0], "reveal": "none",
+     "camera": {"az": 35, "el": 9, "orbit": 22, "push": 0.05},
+     "labels": [{"text": "Turbofan engine", "anchor": "nacelle", "t": 1.6}]},
+
+    {"id": "s02", "lines": [1], "reveal": "cutaway", "badge": {"n": 1, "text": "Fan"},
+     "camera": {"az": 42, "el": 12, "orbit": 16, "push": 0.1},
+     "flows": [{"path": "bypass", "color": "air", "copies": [-10, 20, 50], "swirl": 30}],
+     "labels": [{"text": "Fan", "part": "fan", "t": 0.9}]},
+
+    {"id": "s03", "lines": [2], "reveal": "cutaway", "badge": {"n": 2, "text": "Squeeze"},
+     "camera": {"az": 28, "el": 14, "orbit": 14, "push": 0.1, "focus": "compressor", "focus_amount": 0.6},
+     "flows": [{"path": "core", "color": "air", "copies": [15, 70, 40], "swirl": 50}],
+     "labels": [{"text": "Compressor", "part": "compressor", "t": 1.2}]},
+
+    {"id": "s04", "lines": [3], "reveal": "cutaway",
+     "camera": {"az": 36, "el": 16, "orbit": 12, "push": 0.1, "focus": "combustor", "focus_amount": 0.6},
+     "flows": [{"path": "core", "color": "air", "copies": [15, 70, 40]}],
+     "labels": [{"text": "Hot, dense air", "part": "compressor", "t": 0.8}]},
+
+    {"id": "s05", "lines": [4], "reveal": "cutaway", "badge": {"n": 3, "text": "Burn"},
+     "camera": {"az": 30, "el": 15, "orbit": 14, "push": 0.15, "focus": "combustor", "focus_amount": 0.7},
+     "flows": [{"path": "core", "color": "fuel", "copies": [15, 70], "radius": 0.014},
+               {"path": "exhaust", "color": "heat", "copies": [10, 40, 80], "delay": 0.3}],
+     "labels": [{"text": "Fuel burns here", "anchor": "fuel", "t": 0.9}]},
+
+    {"id": "s06", "lines": [5], "reveal": "xray", "badge": {"n": 4, "text": "Blast"},
+     "camera": {"az": 38, "el": 10, "orbit": 16, "push": 0.0, "focus": "turbine", "focus_amount": 0.3},
+     "flows": [{"path": "exhaust", "color": "heat", "copies": [0, 60, 120, 200, 280]}],
+     "labels": [{"text": "Turbine", "part": "turbine", "t": 1.0}]},
+
+    {"id": "s07", "lines": [6], "reveal": "xray",
+     "camera": {"az": 44, "el": 8, "orbit": 18, "push": 0.0},
+     "flows": [{"path": "bypass", "color": "air", "copies": [-10, 30, 90], "swirl": 30},
+               {"path": "exhaust", "color": "heat", "copies": [10, 70, 140]}],
+     "labels": [{"text": "One shaft", "part": "shaft", "t": 1.2}]},
+
+    {"id": "s08", "lines": [7], "reveal": "none",
+     "camera": {"az": 20, "el": 7, "orbit": 20, "push": 0.0, "focus": "exhaust", "focus_amount": 0.3},
+     "flows": [{"path": "exhaust", "color": "heat", "copies": [0, 45, 90, 135, 180, 225, 270]}],
+     "labels": [{"text": "Thrust", "anchor": "exhaust", "t": 1.0}]},
+
+    {"id": "s09", "lines": [8], "reveal": "explode", "explode_gap": 0.55,
+     "camera": {"az": 34, "el": 9, "orbit": 12},
+     "labels": [{"text": "Fan", "part": "fan", "t": 1.0}, {"text": "Squeeze", "part": "compressor", "t": 1.6, "above": false},
+                {"text": "Burn", "part": "combustor", "t": 2.2}, {"text": "Blast", "part": "turbine", "t": 2.8, "above": false}]}
+  ]
+}
