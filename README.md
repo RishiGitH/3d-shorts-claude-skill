@@ -10,6 +10,8 @@ writes the narration, records a free local voice, adds captions, labels and a mi
 
 Everything runs on your own computer. No account, no API key, no cloud render.
 
+**This is the format behind 190M+ view Shorts.** Zack D. Films' top 3D "how it works" Shorts have 255M and 217M views (23 of its Shorts are above 100M) - [see the numbers](#why-this-format). This skill builds Shorts of that kind with Claude.
+
 > **Like it? Please star the repo** ⭐ - it is the best way to say thanks, and it tells me to keep going.
 > This project is actively maintained: new objects, reveals, looks and voices are coming. Star it (or Watch → Releases) to follow along.
 
@@ -26,7 +28,7 @@ This is the demo Short (`projects/demo-jet-engine`), made from the prompt above 
 ## Why this format
 
 Short 3D "how does it work" videos are some of the most-watched content on YouTube. Zack D. Films ([@zackdfilms](https://www.youtube.com/@zackdfilms), 29.6M subscribers) has made thousands of them:
-the median of its 4,148 Shorts is about **14 million views** (our count, November 2026), and the best ones are far higher:
+the median of its 4,148 Shorts is about **14 million views** (our count, November 2026), 23 are above 100M, two are above 190M, and the best ones are:
 
 | Short | Views |
 |---|---|
