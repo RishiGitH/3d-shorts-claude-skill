@@ -23,6 +23,21 @@ This is the demo Short (`projects/demo-jet-engine`), made from the prompt above 
 
 **[Watch the full Short with sound (jet-engine.mp4)](docs/demo/jet-engine.mp4)** - click, then press play. The voice is the free local Piper voice.
 
+## Why this format
+
+Short 3D "how does it work" videos are some of the most-watched content on YouTube. Zack D. Films ([@zackdfilms](https://www.youtube.com/@zackdfilms), 29.6M subscribers) has made thousands of them:
+the median of its 4,148 Shorts is about **14 million views** (our count, November 2026), and the best ones are far higher:
+
+| Short | Views |
+|---|---|
+| [How Stitches Work](https://www.youtube.com/shorts/ttuKeS5k4Uo) | 255M |
+| [How Splinters Get Unstuck](https://www.youtube.com/shorts/yGw0nhlUtkQ) | 217M |
+| [How Long Are Your Blood Vessels?](https://www.youtube.com/shorts/c5G_25dhoeU) | 158M |
+
+The pattern: one curiosity question, 25-40 seconds, a clear 3D view of the mechanism, narrated. This skill builds that kind of Short for you with Claude.
+It uses its own look (a studio-lit object with cutaways and flow lines), not a copy of anyone's videos, and views are never guaranteed - the idea and the hook decide.
+(Third-party videos are linked, not included. View counts change.)
+
 ## What you need
 
 - A computer with about 3 GB free disk space (macOS, Linux or Windows) and a graphics driver that supports OpenGL 4.3 / Metal (needed by Blender's EEVEE renderer; no dedicated GPU required). An Apple-silicon Mac (M4) renders a final Short in about 40 minutes.
